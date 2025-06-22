@@ -90,13 +90,98 @@
 # QA Engineer: designs a test automation ecosystem, Writes and maintains test scripts for automated testing
 
 ## UI/UX Design Planning ##
+# Color Styles:
+# Primary: #FF5A5F #34967C
+# Secondary: #008489 #FFA800
+# Background: #FFFFFF
+# Text: #222222 #FFFFFF #000000 #8F8F8F
+# Secondary Text: #717171 
+# Typography:
+# Primary Font: Circular, Medium (500), 16px
+# Headings: Circular, Bold (700), 24px-32px
+# Secondary Text: Circular, Book (400), 14px
+
+# Importance of Identifying Design Properties from Mockup Designs
+# Development Consistency
+# Identifying specific design properties ensures all developers implement the exact same visual standards across different components and pages. This prevents inconsistencies where one developer might use #FF5A5F for buttons while another uses a similar but different shade, maintaining brand integrity throughout the platform.
+# Efficient Workflow and Maintenance
+# Having documented design properties allows developers to create reusable CSS variables or design tokens that can be easily updated globally. For example, if the brand color needs to change from #FF5A5F to a different shade, updating one variable changes it across all components rather than searching through hundreds of files.
+# Designer-Developer Communication
+# Clear documentation of typography and color specifications eliminates guesswork and reduces back-and-forth communication between designers and developers. Developers can confidently implement features knowing they're using the correct Circular font weights and exact color values.
+# Scalability and Team Collaboration
+# As the project grows and new team members join, having established design properties provides immediate guidance on how to maintain visual consistency. New developers can reference the documented styles rather than trying to reverse-engineer designs from existing components.
+# User Experience Consistency
+# Consistent application of these design properties creates a cohesive user experience where property cards, booking forms, and navigation elements all feel like part of the same platform, building user trust and professional credibility.
 
 
 ## Project Roles and Responsibilities ##
+# Project Manager: Oversees timeline, budget, and coordination between teams to ensure the Airbnb clone delivers on schedule and meets quality standards.
+# Frontend Developers: Build user interfaces for property listings, booking forms, and user profiles while ensuring responsive design across all devices.
+# Backend Developers: Develop APIs, database systems, authentication, and payment processing that power the platform's core functionality.
+# Designers (UI/UX): Create intuitive user interfaces and conduct user research to ensure the platform is visually appealing and easy to use.
+# QA/Testers: Test all platform features including booking flows and payment processing to ensure reliability and catch bugs before production.
+# DevOps Engineers: Maintain CI/CD pipelines, cloud infrastructure, and system security to ensure platform stability and scalability.
+# Product Owner: Defines product vision and prioritizes features based on business value to ensure the platform meets market needs effectively.
+# Scrum Master: Facilitates Agile processes and removes development obstacles to maintain team efficiency and continuous delivery of working features.
 
 ## UI Component Patterns ##
+# Navigation Components
+# Navbar Component
+# Features: Logo placement, search functionality with location/check-in/check-out/guests inputs, user authentication buttons (Sign In/Sign Up), and navigation menu
+# Purpose: Provides primary navigation and search functionality across all pages, maintaining consistent branding and user access points
 
+# Search Bar Component
+# Features: Multi-field search with location input, date pickers for check-in/check-out, guest selector dropdown, and search button
+# Purpose: Central search functionality allowing users to find properties based on their specific travel criteria  
 
+# Property Display Components
+# Property Card Component
+# Features: Property image gallery, title, rating stars, price per night, location details, and quick action buttons
+# Purpose: Displays property information in a consistent, scannable format for property listings and search results
+
+# Property Grid/List Component
+# Features: Responsive grid layout displaying multiple property cards with filtering and sorting options
+# Purpose: Organizes multiple properties in an easy-to-browse format for the homepage and search results
+
+# Property Detail Component
+# Features: Large image gallery, detailed description, amenities list, host information, pricing breakdown, and booking widget
+# Purpose: Provides comprehensive property information to help users make booking decisions
+
+# Booking Components
+# Booking Form Component
+# Features: Contact details form, payment method selection, billing address, booking summary, and confirmation button
+# Purpose: Handles the complete booking process from user information collection to payment processing
+
+# Order Summary Component
+# Features: Property image, booking dates, pricing breakdown (booking fee, subtotal, total), and booking details
+# Purpose: Provides clear booking confirmation and cost transparency during the checkout process
+
+# Content Components
+# Review/Rating Component
+# Features: Star ratings, user avatars, review text, date stamps, and review filtering
+# Purpose: Displays social proof and user feedback to build trust and help future guests make informed decisions
+
+# Amenities List Component
+# Features: Grid of amenity icons with labels (WiFi, Kitchen, Pool, etc.), categorized groupings
+# Purpose: Clearly communicates property features and facilities to set proper guest expectations
+
+# Layout Components
+# Footer Component
+# Features: Links to company information, support resources, legal pages, social media links, and additional navigation
+# Purpose: Provides secondary navigation and important company information while maintaining clean page structure
+
+# Policy/Rules Component
+# Features: Cancellation policy details, house rules, check-in instructions, and terms display
+# Purpose: Communicates important booking terms and property-specific guidelines to guests
+
+# Interactive Components
+# Image Gallery Component
+# Features: Main image display, thumbnail navigation, full-screen view, and image controls
+# Purpose: Showcases property photos effectively to give users a comprehensive visual understanding
+
+# Date Picker Component
+# Features: Calendar interface, date range selection, availability indicators, and pricing updates
+# Purpose: Enables users to select travel dates while showing availability and dynamic pricing
 
 
 
